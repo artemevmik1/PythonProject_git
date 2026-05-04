@@ -3,9 +3,9 @@ name = "pythonproject-git"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Arteemyev Mikhail",email = "artemevmik1@tambler"}
+    {name = "Arteemyev Mikhail",email = "artemevmik1@rambler.ru"}
 ]
-requires-python = "^3.14"
+requires-python = ">=3.14"
 dependencies = [
 ]
 
