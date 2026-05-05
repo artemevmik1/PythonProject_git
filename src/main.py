@@ -5,7 +5,7 @@ from config import NAMES_TXT
 def clear_names(file_name: str) -> list:
     """функция, для оочистки имен от лишгних символов"""
     new_names_list = list()
-    with open(file_name, "r", encoding="utf-8") as names_file:
+    with open(str(file_name), "r", encoding="utf-8") as names_file:
         names_list = names_file.read().split()
         for name_item in names_list:
             new_name = ""

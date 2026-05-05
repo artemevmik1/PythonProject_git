@@ -5,6 +5,3 @@ print(CURRENT_FILE)
 ROOT_DIR = CURRENT_FILE.parent
 
 NAMES_TXT = ROOT_DIR / "data/names.txt"
-
-
-
