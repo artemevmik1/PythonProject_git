@@ -20,3 +20,6 @@ lint = [
     "black (>=26.3.1,<27.0.0)",
     "mypy (>=1.20.2,<2.0.0)"
 ]
+
+[tool.pytest.ini_options]
+addopts = "--mypy"
