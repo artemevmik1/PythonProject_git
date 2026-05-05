@@ -44,9 +44,6 @@ def save_to_file(file_name: str, data: str) -> None:
     """Сохраняет данные в файл"""
     with open(file_name, 'w', encoding='utf-8') as names_file:
         names_file.write(data)
-
-
-
 if __name__ == '__main__':
     cleared_name = clear_names(NAMES_TXT)
 
