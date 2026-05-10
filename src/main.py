@@ -57,3 +57,6 @@ if __name__ == "__main__":
 
     filtered_names = filter_english_names(cleared_name)
     save_to_file("english_names.txt", "\n".join(filtered_names))
+
+
+# изменения
